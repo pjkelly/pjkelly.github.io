@@ -1,0 +1,12 @@
+baseURL: https://www.pjkel.ly/
+languageCode: en-us
+title: Patrick Kelly
+theme: pjk
+
+disableKinds:
+  - taxonomy
+  - term
+
+caches:
+  images:
+    dir: :cacheDir/images

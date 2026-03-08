@@ -1,0 +1,279 @@
+/* ============================================================
+   pjkel.ly — stylesheet
+   ============================================================ */
+
+:root {
+  --black: #111111;
+  --dark-gray: #333333;
+  --mid-gray: #666666;
+  --light-gray: #aaaaaa;
+  --rule: #dddddd;
+  --bg: #ffffff;
+
+  --font-body: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  --font-mono: 'DM Mono', 'Courier New', monospace;
+
+  --size-name: 2.6rem;
+  --size-section: 0.7rem;
+  --size-role: 1.1rem;
+  --size-body: 1rem;
+  --size-small: 0.82rem;
+
+  --page-width: 780px;
+  --gutter: 3rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  line-height: 1.6;
+  color: var(--black);
+  background: var(--bg);
+  padding: 3rem var(--gutter);
+  max-width: var(--page-width);
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+a:hover {
+  border-bottom-color: var(--black);
+}
+
+/* ── Site header (name → home link) ─────────────────────── */
+
+header {
+  margin-bottom: 2.5rem;
+}
+
+.site-title {
+  font-family: var(--font-body);
+  font-size: var(--size-name);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--black);
+  border-bottom: none;
+}
+
+.site-title:hover {
+  border-bottom: none;
+  color: var(--mid-gray);
+}
+
+/* ── Home page ───────────────────────────────────────────── */
+
+/* Hide the h1 on the home page — name is in the site header */
+.home h1 {
+  display: none;
+}
+
+.home p {
+  font-size: 1.05rem;
+  color: var(--dark-gray);
+  max-width: 520px;
+  margin-bottom: 0.8rem;
+  line-height: 1.7;
+}
+
+.home a {
+  color: var(--mid-gray);
+  font-family: var(--font-mono);
+  font-size: var(--size-small);
+  border-bottom-color: transparent;
+}
+
+.home a:hover {
+  color: var(--black);
+  border-bottom-color: var(--mid-gray);
+}
+
+/* ── Resume page ─────────────────────────────────────────── */
+
+/* Hide the h1 on the resume — name is in the site header */
+.page h1 {
+  display: none;
+}
+
+/* First paragraph after h1 (title · location) */
+.page h1+p {
+  font-family: var(--font-mono);
+  font-size: var(--size-small);
+  font-weight: 500;
+  color: var(--dark-gray);
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  margin-bottom: 0.35rem;
+}
+
+/* Second paragraph (email · linkedin · phone) */
+.page h1+p+p {
+  font-family: var(--font-mono);
+  font-size: var(--size-small);
+  color: var(--mid-gray);
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.page h1+p a,
+.page h1+p+p a {
+  color: var(--mid-gray);
+  border-bottom-color: transparent;
+}
+
+.page h1+p a:hover,
+.page h1+p+p a:hover {
+  color: var(--black);
+  border-bottom-color: var(--mid-gray);
+}
+
+/* Rule after contact block */
+.page h1+p+p+hr {
+  border: none;
+  border-top: 2px solid var(--black);
+  margin: 1.2rem 0 2rem;
+}
+
+/* Section headings */
+.page h2 {
+  font-family: var(--font-mono);
+  font-size: var(--size-section);
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--mid-gray);
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* Role / institution headings */
+.page h3 {
+  font-family: var(--font-body);
+  font-size: var(--size-role);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  margin-bottom: 0.1rem;
+}
+
+/* Date line after h3 */
+.page h3+p {
+  font-family: var(--font-mono);
+  font-size: var(--size-small);
+  color: var(--light-gray);
+  margin-bottom: 0.7rem;
+}
+
+/* Body paragraphs */
+.page p {
+  margin-bottom: 0.7rem;
+  color: var(--dark-gray);
+}
+
+/* Lists */
+.page ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0.7rem;
+}
+
+.page ul li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: var(--dark-gray);
+  font-size: var(--size-body);
+}
+
+.page ul li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: var(--light-gray);
+}
+
+.page ul li strong,
+.page p strong {
+  color: var(--black);
+  font-weight: 600;
+}
+
+/* Dividers between roles */
+.page hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 1.8rem 0;
+}
+
+/* Skills paragraphs */
+.page h2+p,
+.page h2+p~p {
+  font-size: var(--size-small);
+  line-height: 1.7;
+  margin-bottom: 0.4rem;
+  color: var(--dark-gray);
+}
+
+/* ── Print ───────────────────────────────────────────────── */
+
+@media print {
+  header {
+    display: none;
+  }
+
+  body {
+    padding: 0.5in 0.6in;
+    font-size: 10pt;
+    max-width: none;
+  }
+
+  /* Restore name for print since header is hidden */
+  .page h1 {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 22pt;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.3rem;
+  }
+
+  a {
+    border-bottom: none;
+  }
+
+  .page h2 {
+    font-size: 6.5pt;
+  }
+
+  .page h3 {
+    font-size: 10.5pt;
+  }
+
+  .page h2,
+  .page h3 {
+    page-break-after: avoid;
+  }
+
+  .page ul li {
+    page-break-inside: avoid;
+  }
+}
