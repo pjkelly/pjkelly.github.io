@@ -17,8 +17,6 @@ architecture and warehouse design to semantic layers and AI-ready data products.
 deep technical ownership and the organizational fluency to work effectively across
 engineering and business.
 
----
-
 ## Experience
 
 ### Staff Data Engineer · Rostrum Pacific
@@ -94,8 +92,6 @@ modeling, and analytics.
 **Notable clients:** Disney · ABC · NBC Universal · Comcast · IBM ·
 American Heart Association · National Association of Broadcasters
 
----
-
 ## Skills
 
 **Data Engineering**
@@ -108,8 +104,6 @@ AWS Bedrock · LangChain · LangGraph
 **Cloud & Infrastructure**
 AWS (Redshift, S3, Glue, Athena, Bedrock, Lambda, ECS, Kinesis, CloudWatch) ·
 Terraform · GitHub Actions
-
----
 
 ## Education
 
