@@ -4,14 +4,14 @@ title: Resume
 
 # Patrick Kelly
 
-**Data Platform Engineer · Orange County, CA**  
+**Director of Data Engineering · Orange County, CA**  
 *Data infrastructure, analytics engineering, and AI-ready data systems*
 
 [me@pjkel.ly](mailto:me@pjkel.ly) · [linkedin.com/in/pjkelly82](https://linkedin.com/in/pjkelly82) · +1 562-505-0434
 
 ---
 
-Data platform engineer with 20 years of experience building production systems across
+Data engineering leader with 20 years of experience building production systems across
 music, media, and technology. Focused on the full data stack — from ingestion
 architecture and warehouse design to semantic layers and AI-ready data products. Brings
 deep technical ownership and the organizational fluency to work effectively across
@@ -19,9 +19,9 @@ engineering and business.
 
 ## Experience
 
-### Staff Data Engineer · Rostrum Pacific
+### Director of Data Engineering · Rostrum Pacific
 
-**February 2025 – Present · Remote**
+**February 2025 – Present · Los Angeles, CA (Remote)**
 
 Sets technical direction and architecture for the data engineering team at a music
 distribution and publishing company. Responsible for the full data platform across
@@ -33,8 +33,8 @@ analytics, AI, and BI products.
   business intelligence across the organization.
 - Designed and built the first version of the company's Analytics AI agent, including
   the semantic layer underpinning it: business-defined metrics, routing logic, and
-  hybrid search, to ensure AI outputs are grounded in reliable, well-modeled data.
-  Continues to collaborate with the AI engineering team on data-adjacent concerns.
+  hybrid search, to ensure AI outputs are grounded in reliable, well-modeled data,
+  and collaborated with the AI engineering team on data-adjacent concerns.
 - Partnered with executive leadership to deliver a company-wide BI solution, driving
   data availability, structure, and quality for organization-wide reporting.
 - Applied a deliberate build-vs-buy approach to infrastructure decisions, replacing
@@ -50,12 +50,15 @@ analytics, AI, and BI products.
   data quality across all sources.
 - Designed a data crawler framework for automated collection of data unavailable via
   standard delivery or API.
+- Managed a direct report on the data engineering team; provided broader technical
+  mentorship across the engineering organization on data modeling and infrastructure
+  topics.
 
 ---
 
 ### Data Engineering & AI Consultant · AnswerQuest
 
-**January 2025 – April 2025 · Remote (Contract)**
+**January 2025 – April 2025 · New York, NY (Remote, Contract)**
 
 AnswerQuest is an AI-powered communication platform for K–12 schools, using school-verified
 documents.
@@ -69,7 +72,7 @@ documents.
 
 ### Lead Data Engineer, Technical Lead · Crush & Lovely
 
-**March 2006 – August 2024 · Remote**
+**March 2006 – August 2024 · New York, NY (Remote)**
 
 Data and platform lead at a digital agency serving enterprise clients across media,
 entertainment, and technology. Owned data architecture across a portfolio of concurrent
